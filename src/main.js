@@ -2,15 +2,14 @@ import Vue from 'vue'
 import App from './App.vue'
 import router from './router'
 import store from './store'
-// Traer la librería
-import BootstrapVue from 'bootstrap-vue'
+// BootstrapVue
+import './plugins/bootstrapVue'
 
-// Traer el css
-import 'bootstrap/dist/css/bootstrap.css'
-import 'bootstrap-vue/dist/bootstrap-vue.css'
+// Vue Font-Awesome
+import './plugins/fontAwesome'
 
-// Darlo de alta
-Vue.use(BootstrapVue)
+// CSS global
+import './assets/css/main.styl'
 
 Vue.config.productionTip = false
 
