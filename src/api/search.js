@@ -23,6 +23,7 @@ const host = '.api.blizzard.com/'
 function getApiAccount ({ region, account }) {
   // Recurso de la API al que queremos acceder
   const resource = `d3/profile/${account}/`
+  // const resource = 'd3/data/act'
   // API URL completa
   const API_URL = `${protocol}${region}${host}${resource}`
   // Locale
