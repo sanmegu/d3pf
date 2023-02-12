@@ -5,8 +5,10 @@ import axios from 'axios'
 // 🔥 Recuerda que debes usar tus datos a la hora de hacer las llamadas a las APIs
 // 🔥 Como dice la documentación, tienes un máximo de llamadas por segundo y por hora a la API.
 // 🔥 Estos datos deberían ser privados
-const clientId = '5bbe91164d254b12b7809a47a02ddc8b'
-const clientSecret = 'vvG4l7ZXY4CVd3dmO2qvhpXhIg2apk7o'
+// const clientId = '5bbe91164d254b12b7809a47a02ddc8c'
+// const clientSecret = 'vvG4l7ZXY4CVd3dmO2qvhpXhIg2apk7p'
+const clientId = process.env.VUE_APP_CLIENT_ID
+const clientSecret = process.env.VUE_APP_CLIENT_SECRET
 
 // API URL para hacer oauth
 const region = 'eu'
